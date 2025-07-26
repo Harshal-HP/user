@@ -8,4 +8,7 @@ jobs:
   Build:
     uses: Harshal-HP/roboshop-github-actions/.github/workflows/ci-main.yml@main
     with:
-      appType: 'nodejs'
+      appType: 'nodeJS'
+      appName: 'user'
+    secrets:
+      vault_token: ${{ secrets.vault_token }}

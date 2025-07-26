@@ -4,4 +4,5 @@ jobs:
   Build:
     uses: Harshal-HP/roboshop-github-actions/.github/workflows/ci-pr.yml@main
     with:
-      appType: 'nodejs'
+      appType: 'nodeJS'
+      appName: 'user'
